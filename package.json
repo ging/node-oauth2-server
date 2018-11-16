@@ -1,16 +1,16 @@
 {
   "_args": [
     [
-      "oauth2-server",
-      "/home/alex/pruebas-ging/IdM/idm"
+      "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
+      "/home/alex/ging/fiware/idm/mesias"
     ]
   ],
-  "_from": "git+https://github.com/ging/node-oauth2-server.git",
-  "_id": "oauth2-server@3.0.0",
+  "_from": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
+  "_id": "oauth2-server@git+https://github.com/ging/node-oauth2-server.git#29ce7687df7543f546490efe4472ac8843f5fe13",
   "_inBundle": false,
   "_inCache": true,
   "_installable": true,
-  "_integrity": "sha1-ncUgDls7rdCGqNmNKoSDIodf7fc=",
+  "_integrity": "",
   "_location": "/oauth2-server",
   "_nodeVersion": "6.11.1",
   "_npmOperationalInternal": {
@@ -25,22 +25,20 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "oauth2-server@git+https://github.com/ging/node-oauth2-server.git",
-    "name": "oauth2-server",
-    "escapedName": "oauth2-server",
-    "rawSpec": "git+https://github.com/ging/node-oauth2-server.git",
-    "saveSpec": "git+https://github.com/ging/node-oauth2-server.git",
+    "raw": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
+    "rawSpec": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
+    "saveSpec": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
     "fetchSpec": "https://github.com/ging/node-oauth2-server.git",
-    "gitCommittish": "master"
+    "gitCommittish": "3.0.1"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://github.com/ging/node-oauth2-server.git#c955577d1df2106f729ba82a69ed943f77124cb8",
+  "_resolved": "git+https://github.com/ging/node-oauth2-server.git#29ce7687df7543f546490efe4472ac8843f5fe13",
   "_shasum": "c46276b74c3d28634d59ee981f76b58a6459cc28",
   "_shrinkwrap": null,
-  "_spec": "oauth2-server@git+https://github.com/ging/node-oauth2-server.git",
-  "_where": "/home/alex/ing/fiware/idm/mesias",
+  "_spec": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
+  "_where": "/home/alex/ging/fiware/idm/mesias",
   "bugs": {
     "url": "https://github.com/oauthjs/node-oauth2-server/issues"
   },
@@ -76,8 +74,8 @@
   "dependencies": {
     "basic-auth": "1.1.0",
     "bluebird": "3.5.0",
-    "lodash": "4.17.4",
     "debug": "~2.6.3",
+    "lodash": "4.17.4",
     "promisify-any": "2.0.1",
     "statuses": "1.3.1",
     "type-is": "1.6.15"
