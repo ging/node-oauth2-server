@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
-      "/home/alex/ging/fiware/idm/mesias"
+      "git+https://github.com/ging/node-oauth2-server.git#open_id",
+      "/home/alex/ging/proyectos/fiware/idm/fiware-idm"
     ]
   ],
-  "_from": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
-  "_id": "oauth2-server@git+https://github.com/ging/node-oauth2-server.git#29ce7687df7543f546490efe4472ac8843f5fe13",
+  "_from": "git+https://github.com/ging/node-oauth2-server.git#open_id",
+  "_id": "oauth2-server@git+https://github.com/ging/node-oauth2-server.git#beb5b8ac927ea23acc608de3f6e8f3681537fced",
   "_inBundle": false,
   "_inCache": true,
   "_installable": true,
@@ -22,27 +22,29 @@
     "name": "mjsalinger"
   },
   "_npmVersion": "3.10.10",
-  "_phantomChildren": {},
+  "_phantomChildren": {
+    "media-typer": "0.3.0",
+    "mime-types": "2.1.21"
+  },
   "_requested": {
     "type": "git",
-    "raw": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
-    "rawSpec": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
-    "saveSpec": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
+    "raw": "git+https://github.com/ging/node-oauth2-server.git#open_id",
+    "rawSpec": "git+https://github.com/ging/node-oauth2-server.git#open_id",
+    "saveSpec": "git+https://github.com/ging/node-oauth2-server.git#open_id",
     "fetchSpec": "https://github.com/ging/node-oauth2-server.git",
-    "gitCommittish": "3.0.1"
+    "gitCommittish": "open_id"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://github.com/ging/node-oauth2-server.git#29ce7687df7543f546490efe4472ac8843f5fe13",
+  "_resolved": "git+https://github.com/ging/node-oauth2-server.git#beb5b8ac927ea23acc608de3f6e8f3681537fced",
   "_shasum": "c46276b74c3d28634d59ee981f76b58a6459cc28",
   "_shrinkwrap": null,
-  "_spec": "git+https://github.com/ging/node-oauth2-server.git#3.0.1",
-  "_where": "/home/alex/ging/fiware/idm/mesias",
+  "_spec": "git+https://github.com/ging/node-oauth2-server.git#open_id",
+  "_where": "/home/alex/ging/proyectos/fiware/idm/fiware-idm",
   "bugs": {
     "url": "https://github.com/oauthjs/node-oauth2-server/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Thom Seddon",
