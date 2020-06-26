@@ -5,8 +5,8 @@
       "/home/alex/ging/proyectos/fiware/idm/fiware-idm"
     ]
   ],
-  "_from": "git+https://github.com/ging/node-oauth2-server.git#open_id",
-  "_id": "oauth2-server@git+https://github.com/ging/node-oauth2-server.git#beb5b8ac927ea23acc608de3f6e8f3681537fced",
+  "_from": "git+https://github.com/ging/node-oauth2-server.git#4.0",
+  "_id": "oauth2-server@3.0.0",
   "_inBundle": false,
   "_inCache": true,
   "_installable": true,
@@ -28,23 +28,26 @@
   },
   "_requested": {
     "type": "git",
-    "raw": "git+https://github.com/ging/node-oauth2-server.git#open_id",
-    "rawSpec": "git+https://github.com/ging/node-oauth2-server.git#open_id",
-    "saveSpec": "git+https://github.com/ging/node-oauth2-server.git#open_id",
+    "raw": "oauth2-server@git+https://github.com/ging/node-oauth2-server.git#4.0",
+    "name": "oauth2-server",
+    "escapedName": "oauth2-server",
+    "rawSpec": "git+https://github.com/ging/node-oauth2-server.git#4.0",
+    "saveSpec": "git+https://github.com/ging/node-oauth2-server.git#4.0",
     "fetchSpec": "https://github.com/ging/node-oauth2-server.git",
-    "gitCommittish": "open_id"
+    "gitCommittish": "4.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://github.com/ging/node-oauth2-server.git#beb5b8ac927ea23acc608de3f6e8f3681537fced",
+  "_resolved": "git+https://github.com/ging/node-oauth2-server.git#32ed5b6ba15bf263fbc0c81df0de887dd039ffc2",
   "_shasum": "c46276b74c3d28634d59ee981f76b58a6459cc28",
   "_shrinkwrap": null,
-  "_spec": "git+https://github.com/ging/node-oauth2-server.git#open_id",
+  "_spec": "oauth2-server@git+https://github.com/ging/node-oauth2-server.git#4.0",
   "_where": "/home/alex/ging/proyectos/fiware/idm/fiware-idm",
   "bugs": {
     "url": "https://github.com/oauthjs/node-oauth2-server/issues"
   },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Thom Seddon",
